@@ -183,7 +183,7 @@
       <key code="42" action="ç" />
       <key code="43" action="g" />
       <key code="44" action="f" />
-      <key code="45" action="’" />
+      <key code="45" output="'" />
       <key code="46" action="q" />
       <key code="47" action="h" />
       <key code="48" output="&#x0009;" /> <!-- Tab -->
@@ -278,7 +278,7 @@
       <key code="21" action="4" />
       <key code="22" action="6" />
       <key code="23" action="5" />
-      <key code="24" action="`" />
+      <key code="24" output="`" />
       <key code="25" action="9" />
       <key code="26" action="7" />
       <key code="27" action="°" />
@@ -414,7 +414,7 @@
       <key code="42" action="Ç" />
       <key code="43" action="G" />
       <key code="44" action="F" />
-      <key code="45" action="’" />
+      <key code="45" output="'" />
       <key code="46" action="Q" />
       <key code="47" action="H" />
       <key code="48" output="&#x0009;" /> <!-- Tab -->
@@ -508,7 +508,7 @@
       <key code="21" action="(" />
       <key code="22" action="@" />
       <key code="23" action=")" />
-      <key code="24" action="`" />
+      <key code="24" output="`" />
       <key code="25" action="/" />
       <key code="26" action="+" />
       <key code="27" action="°" />
@@ -616,7 +616,7 @@
       <key code="14" action="esperluette" />
       <key code="15" action="œ" />
       <key code="16" action="¡" />
-      <key code="17" action="grave" />
+      <key code="17" output="`" />
       <key code="18" action="—" />
       <key code="19" action="inferieur" />
       <key code="20" action=">" />
@@ -644,7 +644,7 @@
       <key code="42" action="✈" />
       <key code="43" action="grec" />
       <key code="44" action="ogonek" />
-      <key code="45" action="¿" />
+      <key code="45" action="’" />
       <key code="46" action="rond" />
       <key code="47" action="pointsouscrit" />
       <key code="48" output="&#x0009;" /> <!-- Tab -->
@@ -731,7 +731,7 @@
       <key code="14" action="§" />
       <key code="15" action="Œ" />
       <key code="16" action="☠" />
-      <key code="17" action="`" />
+      <key code="17" output="`" />
       <key code="18" action="„" />
       <key code="19" action="“" />
       <key code="20" action="”" />
@@ -846,7 +846,7 @@
       <key code="14" action="§" />
       <key code="15" action="œ" />
       <key code="16" action="☠" />
-      <key code="17" action="`" />
+      <key code="17" output="`" />
       <key code="18" action="„" />
       <key code="19" action="“" />
       <key code="20" action="”" />
