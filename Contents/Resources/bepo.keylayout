@@ -872,7 +872,7 @@
 			<key code="38" action="exposant"/>
 			<key code="39" action="macron"/>
 			<key code="40" action="latin"/>
-			<key code="41" action="tilde"/>
+			<key code="41" output="~"/>
 			<key code="42" action="✈"/>
 			<key code="43" action="grec"/>
 			<key code="44" action="ogonek"/>
@@ -1046,7 +1046,7 @@
 			<key code="38" action="™"/>
 			<key code="39" action="⛽"/>
 			<key code="40" action="ſ"/>
-			<key code="41" action="⚓"/>
+			<key code="41" action="tilde"/>
 			<key code="42" action="copyleft"/>
 			<key code="43" action="†"/>
 			<key code="44" action="⛄"/>
@@ -2191,7 +2191,6 @@
 			<when state="breveinverse" output="̑"/>
 			<when state="caron" output="̌"/>
 			<when state="cedille" output="̧"/>
-			<when state="circonflexe" output="̂"/>
 			<when state="circonflexesouscrit" output="̭"/>
 			<when state="corne" output="̛"/>
 			<when state="crochet" output="̉"/>
@@ -2223,7 +2222,7 @@
 			<when state="none" output="="/>
 			<when state="barre" output="≠"/>
 			<when state="caron" output="₌"/>
-			<when state="circonflexe" output="⁼"/>
+			<!-- <when state="circonflexe" output="⁼"/> -->
 			<when state="exposant" output="⁼"/>
 			<when state="indices" output="₌"/>
 			<when state="scientifique" output="↔"/>
@@ -2351,7 +2350,6 @@
 			<when state="calligraphique" output="𝓒"/>
 			<when state="caron" output="Č"/>
 			<when state="cedille" output="Ç"/>
-			<when state="circonflexe" output="Ĉ"/>
 			<when state="crosse" output="Ƈ"/>
 			<when state="doubletrait" output="ℂ"/>
 			<when state="exposant" output=""/>
@@ -2405,14 +2403,7 @@
 			<when state="breveinverse" output="Ȇ"/>
 			<when state="calligraphique" output="𝓔"/>
 			<when state="caron" output="Ě"/>
-			<when state="cedille" output="Ȩ"/>
 			<when state="circonflexe" output="Ê"/>
-			<when state="circonflexeaigu" output="Ế"/>
-			<when state="circonflexecrochet" output="Ể"/>
-			<when state="circonflexegrave" output="Ề"/>
-			<when state="circonflexepoint" output="Ệ"/>
-			<when state="circonflexesouscrit" output="Ḙ"/>
-			<when state="circonflexetilde" output="Ễ"/>
 			<when state="crochet" output="Ẻ"/>
 			<when state="doublegrave" output="Ȅ"/>
 			<when state="doubletrait" output="𝔼"/>
@@ -2466,7 +2457,6 @@
 			<when state="calligraphique" output="𝓖"/>
 			<when state="caron" output="Ǧ"/>
 			<when state="cedille" output="Ģ"/>
-			<when state="circonflexe" output="Ĝ"/>
 			<when state="crosse" output="Ɠ"/>
 			<when state="doubletrait" output="𝔾"/>
 			<when state="exposant" output="ᴳ"/>
@@ -2492,7 +2482,6 @@
 			<when state="calligraphique" output="𝓗"/>
 			<when state="caron" output="Ȟ"/>
 			<when state="cedille" output="Ḩ"/>
-			<when state="circonflexe" output="Ĥ"/>
 			<when state="crochet" output="Ꜧ"/>
 			<when state="crosse" output="Ɦ"/>
 			<when state="doubletrait" output="ℍ"/>
@@ -2521,7 +2510,6 @@
 			<when state="breveinverse" output="Ȋ"/>
 			<when state="calligraphique" output="𝓘"/>
 			<when state="caron" output="Ǐ"/>
-			<when state="circonflexe" output="Î"/>
 			<when state="crochet" output="Ỉ"/>
 			<when state="doublegrave" output="Ȉ"/>
 			<when state="doubletrait" output="𝕀"/>
@@ -2553,7 +2541,6 @@
 		<action id="J">
 			<when state="none" output="J"/>
 			<when state="calligraphique" output="𝓙"/>
-			<when state="circonflexe" output="Ĵ"/>
 			<when state="doubletrait" output="𝕁"/>
 			<when state="exposant" output="ᴶ"/>
 			<when state="gotiques" output="𝔍"/>
@@ -2649,7 +2636,6 @@
 			<when state="calligraphique" output="𝓝"/>
 			<when state="caron" output="Ň"/>
 			<when state="cedille" output="Ņ"/>
-			<when state="circonflexe" output="Ṋ"/>
 			<when state="crochet" output="Ɲ"/>
 			<when state="doubletrait" output="ℕ"/>
 			<when state="exposant" output="ᴺ"/>
@@ -2801,7 +2787,6 @@
 			<when state="caron" output="Š"/>
 			<when state="caronpoint" output="Ṧ"/>
 			<when state="cedille" output="Ş"/>
-			<when state="circonflexe" output="Ŝ"/>
 			<when state="doubletrait" output="𝕊"/>
 			<when state="gotiques" output="𝔖"/>
 			<when state="gotiquesgras" output="𝕾"/>
@@ -2927,7 +2912,6 @@
 			<when state="none" output="W"/>
 			<when state="aigu" output="Ẃ"/>
 			<when state="calligraphique" output="𝓦"/>
-			<when state="circonflexe" output="Ŵ"/>
 			<when state="crosse" output="Ⱳ"/>
 			<when state="doubletrait" output="𝕎"/>
 			<when state="exposant" output="ᵂ"/>
@@ -3112,7 +3096,6 @@
 			<when state="barre" next="aigubarre"/>
 			<when state="breve" next="aigubreve"/>
 			<when state="cedille" next="aigucedille"/>
-			<when state="circonflexe" next="circonflexeaigu"/>
 			<when state="corne" next="aigucorne"/>
 			<when state="grec" next="grecaigu"/>
 			<when state="grectrema" next="grectremaaigu"/>
@@ -3242,7 +3225,6 @@
 			<when state="breveinverse" output="̑"/>
 			<when state="caron" output="̌"/>
 			<when state="cedille" output="̧"/>
-			<when state="circonflexe" next="circonflexecrochet"/>
 			<when state="circonflexesouscrit" output="̭"/>
 			<when state="corne" next="cornecrochet"/>
 			<when state="crochet" next="crosse"/>
@@ -3721,7 +3703,7 @@
 			<when state="calligraphique" output="𝓷"/>
 			<when state="caron" output="ň"/>
 			<when state="cedille" output="ņ"/>
-			<when state="circonflexe" output="ṋ"/>
+			<!-- <when state="circonflexe" output="ṋ"/> -->
 			<when state="crochet" output="ɲ"/>
 			<when state="doubletrait" output="𝕟"/>
 			<when state="exposant" output="ⁿ"/>
@@ -4305,7 +4287,7 @@
 			<when state="breveinverse" output="̑"/>
 			<when state="caron" output="̌"/>
 			<when state="cedille" output="̧"/>
-			<when state="circonflexe" output="̂"/>
+			<!-- <when state="circonflexe" output="̂"/> -->
 			<when state="circonflexesouscrit" output="̭"/>
 			<when state="corne" output="̛"/>
 			<when state="crochet" output="̉"/>
@@ -4332,7 +4314,7 @@
 		<action id="À">
 			<when state="none" output="À"/>
 			<when state="breve" output="Ằ"/>
-			<when state="circonflexe" output="Ầ"/>
+			<!-- <when state="circonflexe" output="Ầ"/> -->
 			<when state="grave" output="Ȁ"/>
 			<when state="latin" output="Ꜣ"/>
 		</action>
@@ -4352,7 +4334,7 @@
 		</action>
 		<action id="È">
 			<when state="none" output="È"/>
-			<when state="circonflexe" output="Ề"/>
+			<!-- <when state="circonflexe" output="Ề"/> -->
 			<when state="grave" output="Ȅ"/>
 			<when state="latin" output="Ǝ"/>
 			<when state="latinexposant" output="ᴲ"/>
@@ -4361,7 +4343,7 @@
 		</action>
 		<action id="É">
 			<when state="none" output="É"/>
-			<when state="circonflexe" output="Ế"/>
+			<!-- <when state="circonflexe" output="Ế"/> -->
 			<when state="latin" output="Ɛ"/>
 			<when state="macron" output="Ḗ"/>
 			<when state="scientifique" output="⅋"/>
@@ -4391,7 +4373,7 @@
 		<action id="à">
 			<when state="none" output="à"/>
 			<when state="breve" output="ằ"/>
-			<when state="circonflexe" output="ầ"/>
+			<!-- <when state="circonflexe" output="ầ"/> -->
 			<when state="grave" output="ȁ"/>
 			<when state="latin" output="ꜣ"/>
 		</action>
@@ -4410,7 +4392,7 @@
 		</action>
 		<action id="è">
 			<when state="none" output="è"/>
-			<when state="circonflexe" output="ề"/>
+			<!-- <when state="circonflexe" output="ề"/> -->
 			<when state="grave" output="ȅ"/>
 			<when state="latin" output="ǝ"/>
 			<when state="macron" output="ḕ"/>
@@ -4418,7 +4400,7 @@
 		</action>
 		<action id="é">
 			<when state="none" output="é"/>
-			<when state="circonflexe" output="ế"/>
+			<!-- <when state="circonflexe" output="ế"/> -->
 			<when state="latin" output="ɛ"/>
 			<when state="latinexposant" output="ᵋ"/>
 			<when state="macron" output="ḗ"/>

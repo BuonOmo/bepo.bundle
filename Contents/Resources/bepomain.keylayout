@@ -1322,7 +1322,7 @@
       <key code="50" output="`" />
     </keyMap>
   </keyMapSet>
-  
+
 
   <actions>
 
@@ -1331,19 +1331,19 @@
         <when state="scientifique" output="♀"/>
         <when state="latin" output="♭"/>
     </action>
-    
+
     <action id="#">
         <when state="none" output="#"/>
         <when state="scientifique" output="☿"/>
         <when state="latin" output="♯"/>
     </action>
-    
+
     <action id="–">
         <when state="none" output="–"/>
         <when state="scientifique" output="♂"/>
         <when state="latin" output="&#x2012;"/>
     </action>
-    
+
     <action id="¶">
         <when state="none" output="¶"/>
         <when state="scientifique" output="♁"/>
@@ -1434,7 +1434,7 @@
         <when state="tilde" output="≳"/>
         <when state="scientifiquebarre" output="&#x226f;"/>
     </action>
-    
+
         <action id="”">
         <when state="none" output="”"/>
     </action>
@@ -1490,12 +1490,12 @@
         <when state="gras" output="𝟱"/>
         <when state="indices" output="₅"/>
     </action>
-    
+
     <action id="]">
         <when state="none" output="]"/>
         <when state="scientifique" output="&#x2290;"/>
     </action>
-    
+
     <action id="⩾">
         <when state="none" output="⩾"/>
         <when state="scientifique" output="&#x2265;"/>
@@ -1570,7 +1570,7 @@
         <when state="indices" output="₋"/>
         <when state="tildebarre" output="&#x2244;"/>
     </action>
-    
+
     <action id="8">
         <when state="none" output="8"/>
         <when state="circonflexe" output="⁸"/>
@@ -1926,7 +1926,7 @@
         <when state="pointsouscritcorne" output="ợ"/>
         <when state="cornecrochet" output="ở"/>
     </action>
-    
+
     <action id="O">
         <when state="none" output="O"/>
         <when state="circonflexe" output="Ô"/>
@@ -2006,7 +2006,7 @@
         <when state="latin" output="&#x01dd;"/>
         <when state="macron" output="ḕ"/>
     </action>
-    
+
     <action id="È">
         <when state="none" output="È"/>
         <when state="circonflexe" output="Ề"/>
@@ -2081,7 +2081,7 @@
         <when state="indices" output="ᵥ"/>
         <when state="crosse" output="ʋ"/>
     </action>
-    
+
     <action id="V">
         <when state="none" output="V"/>
         <when state="aigu" output="Ǘ"/>
@@ -2290,7 +2290,7 @@
         <when state="rayepoint" output="ɟ"/>
         <when state="indices" output="ⱼ"/>
     </action>
-    
+
     <action id="J">
         <when state="none" output="J"/>
         <when state="circonflexe" output="Ĵ"/>
@@ -2409,7 +2409,7 @@
         <when state="gotiquesgras" output="𝖜"/>
         <when state="crosse" output="ⱳ"/>
     </action>
-    
+
     <action id="W">
         <when state="none" output="W"/>
         <when state="circonflexe" output="Ŵ"/>
@@ -2438,7 +2438,7 @@
         <when state="none" output="⚜"/>
         <when state="scientifique" output="⎓"/>
     </action>
-    
+
     <action id="♿">
         <when state="none" output="♿"/>
     </action>
@@ -2936,7 +2936,7 @@
         <when state="latinexposant" output="ᶿ"/>
         <when state="crosse" output="ƈ"/>
     </action>
-    
+
     <action id="C">
         <when state="none" output="C"/>
         <when state="circonflexe" output="Ĉ"/>
@@ -3313,7 +3313,7 @@
         <when state="tildeinscrit" output="ᵯ"/>
         <when state="indices" output="ₘ"/>
     </action>
-    
+
     <action id="M">
         <when state="none" output="M"/>
         <when state="aigu" output="Ḿ"/>
@@ -3373,7 +3373,7 @@
     <action id="✈">
         <when state="none" output="✈"/>
     </action>
-    
+
     <action id="copyleft">
         <when state="none" output="&#x1f12f;"/>
     </action>
